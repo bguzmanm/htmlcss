@@ -1,0 +1,66 @@
+/*
+  #f0f0d8
+  #b4debe
+  #77cca4
+  #666666
+  #b4df37
+;*/
+
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #666666
+}
+
+body {
+  background-color: #f0f0d8;
+}
+.container {
+  margin: 5px;
+}
+
+.menu {
+  background-color: #b4debe;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 10px;
+  padding: 5px;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  color: #77cca4;
+  background-color:#f0f0d8;
+}
+
+.img_articulo {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .menu {
+      background-color: #000;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width:768px) {
+  * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .menu {
+      background-color: #ff0000;
+    }
+}

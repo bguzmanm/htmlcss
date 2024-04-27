@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    * {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: #fff;
+    }
+  
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: auto;
+      grid-template-areas: "header header header"
+        "main main sidebar"
+        "footer footer footer";
+    }
+  
+    .cubo {
+      margin: 5px;
+      /* width: 400px;
+      height: 400px; */
+    }
+  
+    .uno {
+      grid-area: header;
+      background-color: red;
+    }
+    
+    .dos {
+      background-color: blue;
+      grid-area: main;
+    }
+    
+    .tres {
+      background-color: green;
+      grid-area: sidebar;
+    }
+  
+    .cuatro {
+      background-color: blueviolet;
+      grid-area: footer;
+    }
+  </style>
+    <div class="container">
+      <div class="cubo uno"><h2>1 - uno</h2><p></p></div>
+      <div class="cubo dos"><h2>2 - dos</h2><p></p></div>
+      <div class="cubo tres"><h2>3 - tres</h2><p></p></div>
+      <div class="cubo cuatro"><h2>4 - cuatro</h2><p></p></div>
+    </div>
+</body>
+</html>

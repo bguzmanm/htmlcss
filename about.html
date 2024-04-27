@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    * {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: #fff;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; 
+      /* flex-flow: column; */
+      /* justify-content: space-evenly; */
+      align-items: baseline;
+
+    }
+    .cubo {
+      margin: 5px;
+      width: 400px;
+      height: 400px;
+    }
+    .uno {
+      background-color: red;
+      height: 200px;
+    }
+    .dos {
+      background-color: blue;
+    }
+    .tres {
+      background-color: green;
+      height: 300px;
+    }
+    .cuatro {
+      background-color:blueviolet;
+      height: 100px;
+    }
+  </style>
+  <div class="container">
+    <div class="cubo uno">1 - uno</div>
+    <div class="cubo dos">2 - dos</div>
+    <div class="cubo tres">3 - tres</div>
+    <div class="cubo cuatro">4 - cuatro</div>
+  </div>
+</body>
+</html>
